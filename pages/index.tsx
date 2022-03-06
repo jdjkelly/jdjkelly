@@ -31,10 +31,10 @@ const Home: NextPage = () => {
               </h2>
               <div className="mt-6 text-gray-500 space-y-6">
                 <p className="text-lg">
-                  Today, I'm building developer tooling for healthcare as a co-founder and CTO of Flexpa. We've raised from some of the best VCs in the world including General Catalyst and a16z.
+                  Today, I&apos;m building developer tooling for healthcare as a co-founder and CTO of Flexpa. We&apos;ve raised from some of the best VCs in the world including General Catalyst and a16z.
                 </p>
                 <p className="text-base">  
-                  Previously, I was a solo-founder in <a href="#">Y Combinator</a>'s Winter 2020 batch. Before that I was CTO @ <a href="https://www.universe.com/">Universe</a>, acquired by <a href="https://www.livenationentertainment.com/">Live Nation</a> in <a href="#">2015</a> where I managed a product team of 30.
+                  Previously, I was a solo-founder in <a href="#">Y Combinator</a>&apos;s Winter 2020 batch. Before that I was CTO @ <a href="https://www.universe.com/">Universe</a>, acquired by <a href="https://www.livenationentertainment.com/">Live Nation</a> in <a href="#">2015</a> where I managed a product team of 30.
                 </p>
                 <p className="text-base">
                   The breadth of my skills across engineering leadership, product development, and startups is available on a fractional or advisory basis to select companies.  
@@ -76,7 +76,7 @@ const Home: NextPage = () => {
                 </p>
 
                 <p className="text-base leading-7">
-                  I'm unreasonably effective at domain &amp; data modelling. <span className="font-bold">PostgreSQL</span> and <span className="font-bold">SQLite</span> (totally underrated) are my go-tos database-wise.{' '}
+                  I&apos;m unreasonably effective at domain &amp; data modelling. <span className="font-bold">PostgreSQL</span> and <span className="font-bold">SQLite</span> (totally underrated) are my go-tos database-wise.{' '}
                   <span className="font-bold"> </span>
                 </p>
 
