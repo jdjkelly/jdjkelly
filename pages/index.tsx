@@ -74,11 +74,14 @@ const Home: NextPage = () => {
                   My preferred design tool is <span className="font-bold">Figma</span>.
                 </p>
                 <p className="text-base leading-7">
-                  As far as protocols and query languages go, I launched a <span className="font-bold">GraphQL</span> API at Universe in 2017 (<em>way</em> before it became mainstream). I have special depth with <span className="font-bold">OAuth</span> - having launched Ticketmaster's production fan OAuth service.
+                  As far as protocols and query languages go, I launched a <span className="font-bold">GraphQL</span> API at Universe in 2017 (<em>way</em> before it became mainstream). I have special depth with <span className="font-bold">OAuth</span> - having launched Ticketmaster&apos;s production fan OAuth service.
                 </p>
                 <p className="text-base leading-7">
                   I&apos;m unreasonably effective at data modelling. <span className="font-bold">PostgreSQL</span> and <span className="font-bold">SQLite</span> (totally underrated) are my go-tos database-wise.{' '}
                   <span className="font-bold"> </span>
+                </p>
+                <p>
+                  When I work on infrastructure and operations, I usually grab <span className="font-bold">Terraform</span> off the shelf first. I&apos;ve built production systems on top of both <span className="font-bold">AWS</span> and <span className="font-bold">GCP</span>. The largest EC2 fleet I&apos;ve deployed had over 300 instances.
                 </p>
                 <p>
                   Recently, my work in healthcare has led to special knowledge of protocols like <span className="font-bold">FHIR</span>.
@@ -95,7 +98,7 @@ const Home: NextPage = () => {
                     Featured alongside Naveen Selvadurai (founder, Foursquare), <a href="https://www.theverge.com/2013/6/4/4392996/fitness-tracker-data-platforms-launch-giving-users-control">The Verge wrote about my quantified-self tracking application</a>
                   </li>
                   <li>
-                    Four years ago, before you had heard of NFTs, I won <a href="https://blog.openzeppelin.com/ethdenver-zeppelin-prize-winners-e1ac45778434/">OpenZepplin's ETHDenver bounty extending their industry ERC721 contract</a> to create DecentPost - the first decentralized logistics app
+                    Four years ago, before you had heard of NFTs, I won <a href="https://blog.openzeppelin.com/ethdenver-zeppelin-prize-winners-e1ac45778434/">OpenZepplin&apos;s ETHDenver bounty extending their industry ERC721 contract</a> to create DecentPost - the first decentralized logistics app
                   </li>
                   <li>
                     A talk I gave recently at FHIR North on <a href="https://youtu.be/I1YhmOIpaBU">building type-safe applications in healthcare</a>
