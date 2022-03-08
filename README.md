@@ -1,34 +1,32 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Joshua Kelly
+## YC Founder & CTO @ Flexpa
 
-## Getting Started
+I'm building developer tooling for healthcare as a co-founder and CTO of Flexpa.
 
-First, run the development server:
+Previously, I was a solo-founder in Y Combinator's Winter 2020 batch. Before that I was CTO @ Universe, acquired by Live Nation in 2015 where I managed a product team of 30.
 
-```bash
-npm run dev
-# or
-yarn dev
-```
+The breadth of my skills across engineering leadership, product development, and startups is available on a fractional or advisory basis to select companies.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 📚 Stack Experience
 
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
+**TypeScript** (ES6+, Node.js) is my greenfield language of choice. **Ruby** (Rails) was the first language I loved. **Elixir** and **Rust** are my weekend project languages. When necessary, I can build in **Python** and **Go** too.
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
+On the frontend, I usually work with **React**, **Next.js**, and **TailwindCSS**. My preferred design tool is **Figma**.
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+As far as protocols and query languages go, I launched a **GraphQL** API at Universe in 2017 (way before it became mainstream). I have special depth with **OAuth** - having launched Ticketmaster's production fan OAuth service.
 
-## Learn More
+I'm unreasonably effective at data modelling. **PostgreSQL** and **SQLite** (totally underrated) are my go-tos database-wise.
 
-To learn more about Next.js, take a look at the following resources:
+Recently, my work in healthcare has led to special knowledge of protocols like **FHIR**.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Before anyone had heard about dog-themed meme coins and bored apes, I was building on **Ethereum**, **Solidity**, and **web3.js** at ETHGlobal (Waterloo, Denver, and San Francisco).
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+## 📽️ Select Projects
+* Featured alongside Naveen Selvadurai (founder, Foursquare), [The Verge wrote about my quantified-self tracking application](https://www.theverge.com/2013/6/4/4392996/fitness-tracker-data-platforms-launch-giving-users-control)
+* Four years ago, before you had heard of NFTs, I won [OpenZepplin's ETHDenver bounty extending their industry ERC721 contract](https://blog.openzeppelin.com/ethdenver-zeppelin-prize-winners-e1ac45778434/) to create DecentPost - the first decentralized logistics app
+* A talk I gave recently at FHIR North on [building type-safe applications in healthcare](https://youtu.be/I1YhmOIpaBU)
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+## ➕ More
+* [LinkedIn](https://www.linkedin.com/in/joshua-kelly-444b03150/)
+* [HackerNews](https://news.ycombinator.com/user?id=joshuakelly)
+* [Twitter](https://twitter.com/jdjkelly)

@@ -1,3 +1,11 @@
 .main {
   @apply max-w-prose mx-auto;
 }
+
+.List {
+  @apply leading-7 space-y-4 list-inside;
+}
+
+.List li {
+  @apply before:content-['→'] before:text-indigo-600 before:mr-2;
+}
