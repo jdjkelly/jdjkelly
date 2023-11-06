@@ -24,7 +24,11 @@ Before anyone had heard about dog-themed meme coins and bored apes, I was buildi
 ## 📽️ Select Projects
 * Featured alongside Naveen Selvadurai (founder, Foursquare), [The Verge wrote about my quantified-self tracking application](https://www.theverge.com/2013/6/4/4392996/fitness-tracker-data-platforms-launch-giving-users-control)
 * Four years ago, before you had heard of NFTs, I won [OpenZepplin's ETHDenver bounty extending their industry ERC721 contract](https://blog.openzeppelin.com/ethdenver-zeppelin-prize-winners-e1ac45778434/) to create DecentPost - the first decentralized logistics app
-* A talk I gave recently at FHIR North on [building type-safe applications in healthcare](https://youtu.be/I1YhmOIpaBU)
+
+## Talks
+* [Building type-safe applications in healthcare](https://youtu.be/I1YhmOIpaBU)
+* [Healthcare APIs](https://www.youtube.com/watch?v=sBOcSFwHSok)
+* [Resource sync across FHIR servers](https://www.youtube.com/watch?v=mhg_Yrg1GwA)
 
 ## ➕ More
 * [LinkedIn](https://www.linkedin.com/in/joshua-kelly-444b03150/)
