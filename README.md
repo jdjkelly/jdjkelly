@@ -1,7 +1,7 @@
 # Joshua Kelly
 ## YC Founder & CTO @ Flexpa
 
-I'm building developer tooling for healthcare as a co-founder and CTO of Flexpa.
+I'm refactorinf healthcare a co-founder and CTO of Flexpa.
 
 Previously, I was a solo-founder in Y Combinator's Winter 2020 batch. Before that I was CTO @ Universe, acquired by Live Nation in 2015 where I managed a product team of 30.
 
