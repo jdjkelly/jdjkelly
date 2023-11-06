@@ -13,7 +13,7 @@ The breadth of my skills across engineering leadership, product development, and
 
 On the frontend, I usually work with **React**, **Next.js**, and **TailwindCSS**. My preferred design tool is **Figma**.
 
-As far as protocols and query languages go, I launched a **GraphQL** API at Universe in 2017 (way before it became mainstream). I have special depth with **OAuth** - having launched Ticketmaster's production fan OAuth service.
+As far as protocols and query languages go, I launched a **GraphQL** API at Universe in 2017 (way before it became mainstream - no I wouldn't do it again). I have special depth with **OAuth** - having launched Ticketmaster's production fan OAuth service.
 
 I'm unreasonably effective at data modelling. **PostgreSQL** and **SQLite** (totally underrated) are my go-tos database-wise.
 
