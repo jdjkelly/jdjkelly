@@ -4,9 +4,9 @@ import { useState } from 'react'
 import styles from '../styles/Home.module.css'
 
 const stats = [
-  { label: 'Experience', value: '12 years' },
-  { label: 'Team building', value: '55 hires' },
-  { label: 'Fundraising', value: '$14.5m' },
+  { label: 'Experience', value: '13 years' },
+  { label: 'Team building', value: '60 hires' },
+  { label: 'YC batch', value: 'W20' },
   { label: 'Language of choice', value: 'TypeScript' },
 ]
 
@@ -30,22 +30,22 @@ const Home: NextPage = () => {
                 Joshua Kelly
               </h1>
               <h2 className="text-xl text-gray-700 tracking-wide mt-2">
-                YC Founder &amp; CTO @ <a href="https://www.flexpa.com/" className="font-medium hover:underline text-indigo-600">Flexpa</a>
+                CTO @ <a href="https://www.flexpa.com/" className="font-medium hover:underline text-indigo-600">Flexpa</a> &amp; YC Founder 
               </h2>
               <div className="mt-6 text-gray-500 space-y-6">
                 <p className="text-lg">
-                  Today, I&apos;m building developer tooling for healthcare as a co-founder and CTO of Flexpa. We&apos;ve raised from some of the best VCs in the world including General Catalyst and a16z.
+                  Today, I&apos;m refactoring healthcare as co-founder and CTO of Flexpa. We can link identified claims data from anyone.
                 </p>
                 <p className="text-base">  
                   Previously, I was a solo-founder in <a href="https://www.ycombinator.com/">Y Combinator</a>&apos;s Winter 2020 batch. Before that I was CTO @ <a href="https://www.universe.com/">Universe</a>, acquired by <a href="https://www.livenationentertainment.com/">Live Nation</a> in <a href="https://betakit.com/universe-acquired-by-ticketmaster/">2015</a> where I managed a product team of 30.
                 </p>
                 <p className="text-base">
-                  The breadth of my skills across engineering leadership, product development, and startups is available on a fractional or advisory basis to select companies.  
+                  I also advise a small number of ambitious companies. 
                 </p>
                 <p className="text-base">
                   <span className="text-indigo-600 font-medium hover:underline hover:cursor-pointer" onClick={() => setShowEmail(true)}>
                     {' '}
-                    Contact me about fractional engineering leadership <span aria-hidden="true">&rarr;</span>
+                    Talk to me about anything <span aria-hidden="true">&rarr;</span>
                   </span>
                   { showEmail ? " jdjkelly@gmail.com" : null }
                 </p>
@@ -64,7 +64,7 @@ const Home: NextPage = () => {
                   Stack Experience
                 </h3>
                 <p className="text-base leading-7">
-                  <span className="font-bold">TypeScript</span> (ES6+, Node.js) is my greenfield language of choice.{' '}
+                  <span className="font-bold">TypeScript</span> is my greenfield language of choice.{' '}
                   <span className="font-bold">Ruby</span> (Rails) was the first language I loved.{' '}
                   <span className="font-bold">Elixir</span> and <span className="font-bold">Rust</span> are my weekend project languages.
                   When necessary, I can build in <span className="font-bold">Python</span> and <span className="font-bold">Go</span> too.
@@ -81,13 +81,13 @@ const Home: NextPage = () => {
                   <span className="font-bold"> </span>
                 </p>
                 <p>
-                  When I work on infrastructure and operations, I usually grab <span className="font-bold">Terraform</span> off the shelf first. I&apos;ve built production systems on top of both <span className="font-bold">AWS</span> and <span className="font-bold">GCP</span>. The largest EC2 fleet I&apos;ve deployed had over 300 instances.
+                  When I work on infrastructure and operations, I usually grab <span className="font-bold">Terraform</span> off the shelf first. I&apos;ve built production systems on top of both <span className="font-bold">AWS</span> and <span className="font-bold">GCP</span>. The largest EC2 fleet I&apos;ve deployed had over 300 instances. The best deployment is ECS Fargate.
                 </p>
                 <p>
                   Recently, my work in healthcare has led to special knowledge of protocols like <span className="font-bold">FHIR</span>.
                 </p>
                 <p>
-                  Before anyone had heard about dog-themed meme coins and bored apes, I was building on <span className="font-bold">Ethereum</span>, <span className="font-bold">Solidity</span>, and <span className="font-bold">web3.js</span> at ETHGlobal (Waterloo, Denver, and San Francisco).
+                  Before anyone had heard about dog-themed meme coins and bored apes, I was building on <span className="font-bold">Ethereum</span>, <span className="font-bold">Solidity</span>, and <span className="font-bold">web3.js</span> at ETHGlobal (Waterloo, Denver, and San Francisco). I have also shipped code to <span className="font-bold">Bitcoin Core</span>.
                 </p>
                 <hr/>
                 <h3 className="text-xl font-medium text-gray-900">
@@ -95,13 +95,22 @@ const Home: NextPage = () => {
                 </h3>
                 <ul className={styles.List}>
                   <li>
+                    Bitcoin Core contributor, my first commits appeared in the <a href="https://bitcoin.org/en/releases/25.0/">release notes for 25.0</a>, and I am the maintainer of <a href="https://www.github.com/jdjkelly/finney">finney</a> - a TypeScript toolkit for Bitcoin.
+                  </li>
+                  <li>
                     Featured alongside Naveen Selvadurai (founder, Foursquare), <a href="https://www.theverge.com/2013/6/4/4392996/fitness-tracker-data-platforms-launch-giving-users-control">The Verge wrote about my quantified-self tracking application</a>
                   </li>
                   <li>
                     Four years ago, before you had heard of NFTs, I won <a href="https://blog.openzeppelin.com/ethdenver-zeppelin-prize-winners-e1ac45778434/">OpenZepplin&apos;s ETHDenver bounty extending their industry ERC721 contract</a> to create DecentPost - the first decentralized logistics app
                   </li>
+                </ul>
+                <h3 className="text-xl font-medium text-gray-900">
+                  Publications & Talks
+                </h3>
+                 <ul className={styles.List}>
+                  <li><a href="https://www.youtube.com/watch?v=mhg_Yrg1GwA">Resource sync across FHIR servers</a>, <em>FHIR North 2023</em></li>
                   <li>
-                    A talk I gave recently at FHIR North on <a href="https://youtu.be/I1YhmOIpaBU">building type-safe applications in healthcare</a>
+                    <a href="https://www.youtube.com/watch?v=I1YhmOIpaBU">Building on FHIR with TypeScript</a>, <em>FHIR North 2021</em>
                   </li>
                 </ul>
                 <hr/>
@@ -116,7 +125,7 @@ const Home: NextPage = () => {
                 <p className="text-base">
                   <span className="text-indigo-600 font-medium hover:underline hover:cursor-pointer" onClick={() => setShowEmail(true)}>
                     {' '}
-                    Contact me about fractional engineering leadership <span aria-hidden="true">&rarr;</span>
+                    Talk to me about anything <span aria-hidden="true">&rarr;</span>
                   </span>
                   { showEmail ? " jdjkelly@gmail.com" : null }
                 </p>
